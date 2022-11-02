@@ -1,4 +1,4 @@
-namespace WASMPrerenderDemo.Shared
+namespace PreRenderDemo.Shared
 {
     public class WeatherForecast
     {

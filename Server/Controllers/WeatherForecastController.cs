@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using WASMPrerenderDemo.Shared;
+using PreRenderDemo.Shared;
 
-namespace WASMPrerenderDemo.Server.Controllers
+namespace PreRenderDemo.Server.Controllers
 {
     [ApiController]
     [Route("[controller]")]

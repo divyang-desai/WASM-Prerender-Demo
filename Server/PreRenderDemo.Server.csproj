@@ -7,12 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.8" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Client\WASMPrerenderDemo.Client.csproj" />
-    <ProjectReference Include="..\Shared\WASMPrerenderDemo.Shared.csproj" />
+    <ProjectReference Include="..\Client\PreRenderDemo.Client.csproj" />
+    <ProjectReference Include="..\Shared\PreRenderDemo.Shared.csproj" />
   </ItemGroup>
 
 
